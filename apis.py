@@ -109,7 +109,7 @@ def load_sports_and_campus_id(s: requests.Session, service_category_id, target_c
 
 def get_service_id(s: requests.Session, service_cat_id, campus_id, sport_id, target_sport_location):
     logs.log_console(f"Begin Fetching Service ID for {target_sport_location}", "INFO")
-    response = s.get(search_url, params={"id": service_cat_id, "dicId": campus_id + ',' + sport_id})
+    response = s.get(search_url, params={"id": service_cat_id, "dicId": campus_id + ',' + sport_id,"pageBean.pageNo" : 1})
     sports_list = json.loads(response.text)['object']['pageBean']['list']
     service_id = None
     for sport in sports_list:
