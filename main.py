@@ -7,13 +7,15 @@ SERVICE_CATEGORY = "2c9c486e4f821a19014f82381feb0001"  # This is the category ID
 # Fill in these data
 USER_ID = getenv("STD_ID")
 USER_PASSWORD = getenv("PASSWORD")
+DATE=getenv("DATE")
+TIME = getenv("TIME")
 #USER_ID = "YOUR_USER_ID"
 #USER_PASSWORD = "YOUR_USER_PASSWORD"
 CAMPUS_NAME = "江湾校区"
 SPORT_NAME = "羽毛球"
 SPORT_LOCATION = "江湾体育馆羽毛球场"
-DATE = "2023-10-11"
-TIME = "12:00"
+#DATE = "2023-10-11"
+#TIME = "12:00"
 
 # Optional data
 EMAILS = [""]  # Receive error notifications by email
