@@ -13,9 +13,9 @@ DATE = "2022-03-06"
 TIME = "10:00"
 
 # Optional data
-EMAILS = ["YOUR_EMAIL"]  # Receive error notifications by email
-YOUR_EMAIL = "YOUR_EMAIL"  # Account to send email from
-EMAIL_PASSWORD = "YOUR_EMAIL_PASSWORD"  # Password for the email account
+EMAILS = [""]  # Receive error notifications by email
+YOUR_EMAIL = ""  # Account to send email from
+EMAIL_PASSWORD = ""  # Password for the email account
 
 
 if __name__ == '__main__':
