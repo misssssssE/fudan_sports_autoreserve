@@ -11,9 +11,9 @@ DATE=getenv("DATE")
 TIME = getenv("TIME")
 #USER_ID = "YOUR_USER_ID"
 #USER_PASSWORD = "YOUR_USER_PASSWORD"
-CAMPUS_NAME = "江湾校区"
+CAMPUS_NAME = "枫林校区"
 SPORT_NAME = "羽毛球"
-SPORT_LOCATION = "江湾体育馆羽毛球场"
+SPORT_LOCATION = "枫林学生活动中心三楼羽毛球馆"
 #DATE = "2023-10-11"
 #TIME = "12:00"
 
